@@ -1,0 +1,8 @@
+<Project>
+	<PropertyGroup Condition="'$(MSBuildProjectName)' == 'ComputeSharp' or '$(MSBuildProjectName)' == 'ComputeSharp.Core'">
+		<IsPackagedProject>false</IsPackagedProject>
+	</PropertyGroup>
+	<ItemGroup Condition="'$(MSBuildProjectName)' == 'ComputeSharp.Core'">
+		<InternalsVisibleTo Include="Kintsugi.ComputeSharp, PublicKey=$(AssemblySignPublicKey)" />
+	</ItemGroup>
+</Project>
