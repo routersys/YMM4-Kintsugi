@@ -88,10 +88,10 @@
 
 	<ItemGroup>
 		<AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
-			<_Parameter1>LowPolyAbstraction.Tests</_Parameter1>
+			<_Parameter1>Kintsugi.Tests</_Parameter1>
 		</AssemblyAttribute>
 		<AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
-			<_Parameter1>LowPolyAbstraction.Harness</_Parameter1>
+			<_Parameter1>Kintsugi.Harness</_Parameter1>
 		</AssemblyAttribute>
 	</ItemGroup>
 
@@ -109,7 +109,7 @@
 	</ItemGroup>
 
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent" Condition="'$(SkipPluginDeploy)' != 'true' AND '$(BuildingSolutionFile)' != 'true'">
-		<Exec Command="mkdir &quot;$(YMM4DirPath)user\plugin\$(ProjectName)&quot; &gt; NUL 2&gt;&amp;1&#xD;&#xA;copy &quot;$(TargetPath)&quot; &quot;$(YMM4DirPath)user\plugin\$(ProjectName)\&quot;&#xD;&#xA;copy &quot;$(TargetDir)LowPolyAbstraction.ComputeSharp.dll&quot; &quot;$(YMM4DirPath)user\plugin\$(ProjectName)\&quot;&#xD;&#xA;copy &quot;$(TargetDir)LowPolyAbstraction.ComputeSharp.Core.dll&quot; &quot;$(YMM4DirPath)user\plugin\$(ProjectName)\&quot;" />
+		<Exec Command="mkdir &quot;$(YMM4DirPath)user\plugin\$(ProjectName)&quot; &gt; NUL 2&gt;&amp;1&#xD;&#xA;copy &quot;$(TargetPath)&quot; &quot;$(YMM4DirPath)user\plugin\$(ProjectName)\&quot;&#xD;&#xA;copy &quot;$(TargetDir)Kintsugi.ComputeSharp.dll&quot; &quot;$(YMM4DirPath)user\plugin\$(ProjectName)\&quot;&#xD;&#xA;copy &quot;$(TargetDir)Kintsugi.ComputeSharp.Core.dll&quot; &quot;$(YMM4DirPath)user\plugin\$(ProjectName)\&quot;" />
 	</Target>
 
 </Project>

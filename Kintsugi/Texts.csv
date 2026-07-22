@@ -1,0 +1,60 @@
+Key,Parameter,ja-jp,en-us,zh-cn,zh-tw,ko-kr,es-es,ar-sa,id-id
+Kintsugi,,金継ぎ,Kintsugi,金缮,金繕,킨츠기,Kintsugi,كينتسوغي,Kintsugi
+BasicGroup,,基本,Basic,基本,基本,기본,Básico,أساسي,Dasar
+FractureGroup,,亀裂,Fracture,裂纹,裂紋,균열,Fractura,التشقق,Retakan
+LayersGroup,,層構造,Layers,层结构,層結構,층 구조,Capas,الطبقات,Lapisan
+LightingGroup,,照明,Lighting,照明,照明,조명,Iluminación,الإضاءة,Pencahayaan
+Amount,,強さ,Amount,强度,強度,강도,Intensidad,الشدة,Intensitas
+AmountDescription,,金継ぎ層を素材へ合成する量です,Blend amount of the kintsugi layer over the source,金缮层与素材的混合量,金繕層與素材的混合量,킨츠기 층을 소재에 합성하는 양입니다,Cantidad de mezcla de la capa kintsugi sobre la fuente,مقدار مزج طبقة الكينتسوغي فوق المصدر,Jumlah pencampuran lapisan kintsugi di atas sumber
+Growth,,成長,Growth,生长,生長,성장,Crecimiento,النمو,Pertumbuhan
+GrowthDescription,,表示する亀裂伝播の進行度です,Progress of the visible crack propagation,显示的裂纹传播进度,顯示的裂紋傳播進度,표시할 균열 전파의 진행도입니다,Progreso de la propagación visible de las grietas,تقدم انتشار الشقوق المرئية,Kemajuan perambatan retakan yang terlihat
+Quality,,品質,Quality,品质,品質,품질,Calidad,الجودة,Kualitas
+QualityDescription,,応力格子の解像度と通常破壊ステップ上限を選びます,Selects the stress-grid resolution and normal-fracture step limit,选择应力网格分辨率和常规断裂步数上限,選擇應力網格解析度與常規破裂步數上限,응력 격자 해상도와 일반 파괴 단계 상한을 선택합니다,Selecciona la resolución de la malla de tensión y el límite de pasos de fractura normal,يحدد دقة شبكة الإجهاد والحد الأقصى لخطوات الكسر العادي,Memilih resolusi kisi tegangan dan batas langkah fraktur normal
+Stress,,応力,Stress,应力,應力,응력,Tensión,الإجهاد,Tegangan
+StressDescription,,初期引張応力の強さです,Strength of the initial tensile stress,初始拉伸应力的强度,初始拉伸應力的強度,초기 인장 응력의 강도입니다,Intensidad de la tensión de tracción inicial,شدة إجهاد الشد الأولي,Kekuatan tegangan tarik awal
+Shrinkage,,収縮,Shrinkage,收缩,收縮,수축,Contracción,الانكماش,Penyusutan
+ShrinkageDescription,,初期応力と各破壊後の緩和へ加える一様な収縮応力です,Uniform shrinkage stress added initially and during relaxation after each fracture,初始时及每次断裂后的松弛中加入的均匀收缩应力,初始時及每次破裂後的鬆弛中加入的均勻收縮應力,초기 응력과 각 파괴 후 완화에 더하는 균일한 수축 응력입니다,Tensión de contracción uniforme añadida al inicio y durante la relajación tras cada fractura,إجهاد انكماش منتظم يضاف أوليا وأثناء الاسترخاء بعد كل كسر,Tegangan penyusutan seragam yang ditambahkan pada awal dan selama relaksasi setelah setiap fraktur
+Toughness,,靭性,Toughness,韧性,韌性,인성,Tenacidad,المتانة,Ketangguhan
+ToughnessDescription,,破壊が始まる分離応力の閾値です,Separation stress threshold at which fracture begins,断裂开始时的分离应力阈值,斷裂開始時的分離應力閾值,파괴가 시작되는 분리 응력 임계값입니다,Umbral de tensión de separación que inicia la fractura,عتبة إجهاد الانفصال التي يبدأ عندها التشقق,Ambang tegangan pemisahan saat retakan dimulai
+Relaxation,,緩和,Relaxation,松弛,鬆弛,완화,Relajación,الاسترخاء,Relaksasi
+RelaxationDescription,,各破壊後に周囲の応力を解放する強さです,Strength of stress release around each fracture,每次断裂后释放周围应力的强度,每次斷裂後釋放周圍應力的強度,각 파괴 뒤 주변 응력을 해제하는 강도입니다,Intensidad de liberación de tensión alrededor de cada fractura,شدة تحرير الإجهاد حول كل شق,Kekuatan pelepasan tegangan di sekitar setiap retakan
+Propagation,,伝播,Propagation,传播,傳播,전파,Propagación,الانتشار,Perambatan
+PropagationDescription,,通常破壊時に亀裂先端へ渡す残留分離応力の割合です,Fraction of residual separation stress transferred to crack tips during normal fracture,常规断裂时传递到裂纹尖端的残余分离应力比例,常規破裂時傳遞到裂紋尖端的殘餘分離應力比例,일반 파괴 중 균열 끝으로 전달하는 잔류 분리 응력의 비율입니다,Fracción de tensión de separación residual transferida a las puntas durante la fractura normal,نسبة إجهاد الانفصال المتبقي المنقول إلى أطراف الشق أثناء الكسر العادي,Proporsi tegangan pemisahan sisa yang diteruskan ke ujung retakan selama fraktur normal
+LuminanceInfluence,,輝度影響,Luminance Influence,亮度影响,亮度影響,휘도 영향,Influencia de luminancia,تأثير السطوع,Pengaruh Luminans
+LuminanceInfluenceDescription,,素材の輝度が初期引張応力へ与える影響です,Influence of source luminance on initial tensile stress,素材亮度对初始拉伸应力的影响,素材亮度對初始拉伸應力的影響,소재 휘도가 초기 인장 응력에 미치는 영향입니다,Influencia de la luminancia de la fuente sobre la tensión inicial,تأثير سطوع المصدر في إجهاد الشد الأولي,Pengaruh luminans sumber pada tegangan tarik awal
+Irregularity,,不均一さ,Irregularity,不均匀度,不均勻度,불균일성,Irregularidad,عدم التجانس,Ketidakteraturan
+IrregularityDescription,,格子点位置のばらつきと初期応力の異方性です,Variation of grid-point positions and anisotropy of initial stress,网格点位置变化与初始应力各向异性,格點位置變化與初始應力各向異性,격자점 위치의 편차와 초기 응력의 이방성입니다,Variación de las posiciones de la malla y anisotropía de la tensión inicial,تباين مواضع نقاط الشبكة وتباين خواص الإجهاد الأولي,Variasi posisi titik kisi dan anisotropi tegangan awal
+Seed,,シード,Seed,种子,種子,시드,Semilla,البذرة,Seed
+SeedDescription,,格子点位置と初期応力の不均一さを決める固定値です,A fixed value that determines grid-point positions and initial-stress irregularity,决定网格点位置与初始应力不均匀度的固定值,決定格點位置與初始應力不均勻度的固定值,격자점 위치와 초기 응력의 불균일성을 결정하는 고정값입니다,Valor fijo que determina las posiciones de la malla y la irregularidad de la tensión inicial,قيمة ثابتة تحدد مواضع نقاط الشبكة وعدم انتظام الإجهاد الأولي,Nilai tetap yang menentukan posisi titik kisi dan ketidakteraturan tegangan awal
+CrackWidth,,亀裂幅,Crack Width,裂纹宽度,裂紋寬度,균열 폭,Anchura de grieta,عرض الشق,Lebar Retakan
+CrackWidthDescription,,漆と金粉を置く亀裂溝の幅です,Width of the crack groove receiving lacquer and gold,填入漆和金粉的裂纹槽宽度,填入漆與金粉的裂紋槽寬度,옻과 금가루를 채울 균열 홈의 폭입니다,Anchura de la ranura que recibe laca y oro,عرض أخدود الشق الذي يستقبل الطلاء والذهب,Lebar alur retakan untuk lak dan emas
+ErosionDepth,,侵食深さ,Erosion Depth,侵蚀深度,侵蝕深度,침식 깊이,Profundidad de erosión,عمق التآكل,Kedalaman Erosi
+ErosionDepthDescription,,陶器層から削り取る亀裂溝の深さです,Depth eroded from the ceramic layer for the crack groove,从陶瓷层侵蚀出的裂纹槽深度,從陶瓷層侵蝕出的裂紋槽深度,도자기 층에서 깎아낼 균열 홈의 깊이입니다,Profundidad erosionada en la capa cerámica para la grieta,العمق المتآكل من طبقة الخزف لتكوين أخدود الشق,Kedalaman yang terkikis dari lapisan keramik untuk alur retakan
+LacquerFill,,漆充填,Lacquer Fill,漆填充,漆填充,옻 채움,Relleno de laca,ملء الطلاء,Isian Lak
+LacquerFillDescription,,侵食した溝を漆で充填する割合です,Fraction of the eroded groove filled with lacquer,用漆填充侵蚀槽的比例,以漆填充侵蝕槽的比例,침식된 홈을 옻으로 채우는 비율입니다,Fracción de la ranura erosionada rellenada con laca,نسبة الأخدود المتآكل المملوء بالطلاء,Proporsi alur terkikis yang diisi lak
+GoldCoat,,金粉層,Gold Coat,金粉层,金粉層,금가루 층,Capa de oro,طبقة الذهب,Lapisan Emas
+GoldCoatDescription,,漆の上へ重ねる金粉層の厚さです,Thickness of the gold layer coated over the lacquer,覆盖在漆上的金粉层厚度,覆蓋在漆上的金粉層厚度,옻 위에 입히는 금가루 층의 두께입니다,Espesor de la capa de oro aplicada sobre la laca,سماكة طبقة الذهب المطلية فوق الطلاء,Ketebalan lapisan emas di atas lak
+Polish,,研磨,Polish,抛光,拋光,연마,Pulido,التلميع,Pemolesan
+PolishDescription,,積層後の盛り上がりを陶器の基準面側へ切り詰める割合です,Fraction that trims the layered relief toward the ceramic base plane,将叠层凸起向陶瓷基准面削减的比例,將疊層凸起向陶瓷基準面削減的比例,적층 후 돌출부를 도자기 기준면 쪽으로 잘라내는 비율입니다,Proporción que recorta el relieve de las capas hacia el plano base de la cerámica,نسبة تقص بروز الطبقات باتجاه المستوى الأساسي للخزف,Proporsi yang memangkas tonjolan lapisan menuju bidang dasar keramik
+LacquerColor,,漆色,Lacquer Color,漆色,漆色,옻 색상,Color de laca,لون الطلاء,Warna Lak
+LacquerColorDescription,,充填する漆層の色です,Color of the lacquer filling layer,填充漆层的颜色,填充漆層的顏色,채움 옻 층의 색상입니다,Color de la capa de relleno de laca,لون طبقة الطلاء المالئة,Warna lapisan isian lak
+GoldColor,,金色,Gold Color,金色,金色,금색,Color del oro,لون الذهب,Warna Emas
+GoldColorDescription,,測定値を基準に金反射のF0を成分ごとに調整します,Adjusts gold-reflection F0 per component relative to the measured reference,以测量值为基准逐分量调整金反射F0,以測量值為基準逐分量調整金反射F0,측정값을 기준으로 금 반사의 F0를 성분별로 조정합니다,Ajusta por componente el F0 del reflejo del oro respecto a la referencia medida,يضبط F0 لانعكاس الذهب لكل مكون نسبة إلى المرجع المقاس,Menyesuaikan F0 pantulan emas per komponen terhadap acuan terukur
+Roughness,,粗さ,Roughness,粗糙度,粗糙度,거칠기,Rugosidad,الخشونة,Kekasaran
+RoughnessDescription,,金粉層の微細表面の粗さです,Microsurface roughness of the gold layer,金粉层微表面的粗糙度,金粉層微表面的粗糙度,금가루 층 미세 표면의 거칠기입니다,Rugosidad microscópica de la capa de oro,خشونة السطح المجهري لطبقة الذهب,Kekasaran mikropermukaan lapisan emas
+Isotropy,,等方性,Isotropy,各向同性,各向同性,등방성,Isotropía,تماثل الخواص,Isotropi
+IsotropyDescription,,金粉反射の方向的な均一さです。低いほど筋状になります,Directional uniformity of gold reflection. Lower values produce streaks,金粉反射的方向均匀度。数值越低条纹越明显,金粉反射的方向均勻度。數值越低條紋越明顯,금가루 반사의 방향 균일성입니다. 낮을수록 줄무늬가 생깁니다,Uniformidad direccional del reflejo del oro. Valores bajos producen vetas,تجانس اتجاه انعكاس الذهب. القيم المنخفضة تنتج خطوطا,Keseragaman arah pantulan emas. Nilai rendah menghasilkan guratan
+LightAngle,,照明角度,Light Angle,光照角度,照明角度,조명 각도,Ángulo de luz,زاوية الضوء,Sudut Cahaya
+LightAngleDescription,,照明を画面内で回転させる角度です,Rotation angle of the light in the image plane,光源在图像平面内的旋转角度,光源在影像平面內的旋轉角度,화면 평면에서 조명을 회전하는 각도입니다,Ángulo de rotación de la luz en el plano de imagen,زاوية دوران الضوء في مستوى الصورة,Sudut rotasi cahaya pada bidang gambar
+LightElevation,,照明仰角,Light Elevation,光照仰角,照明仰角,조명 고도,Elevación de luz,ارتفاع الضوء,Elevasi Cahaya
+LightElevationDescription,,表面から見た照明の仰角です,Elevation angle of the light above the surface,光源相对于表面的仰角,光源相對於表面的仰角,표면 위 조명의 고도각입니다,Ángulo de elevación de la luz sobre la superficie,زاوية ارتفاع الضوء فوق السطح,Sudut elevasi cahaya di atas permukaan
+QualityBalanced,,標準,Balanced,标准,標準,표준,Estándar,قياسي,Standar
+QualityBalancedDescription,,応力格子と通常破壊ステップ上限を抑えた設定です,Uses reduced stress-grid resolution and normal-fracture step limit,降低应力网格分辨率和常规断裂步数上限,降低應力網格解析度與常規破裂步數上限,응력 격자 해상도와 일반 파괴 단계 상한을 줄인 설정입니다,Reduce la resolución de la malla y el límite de pasos de fractura normal,يستخدم دقة شبكة إجهاد وحدا أقصى مخفضا لخطوات الكسر العادي,Menggunakan resolusi kisi tegangan dan batas langkah fraktur normal yang dikurangi
+QualityHigh,,高品質,High,高品质,高品質,고품질,Alta,عالية,Tinggi
+QualityHighDescription,,品質と処理量の基準設定です,The reference balance of quality and processing cost,品质与处理量的基准设置,品質與處理量的基準設定,품질과 처리량의 기준 설정입니다,Equilibrio de referencia entre calidad y coste,التوازن المرجعي بين الجودة وكلفة المعالجة,Keseimbangan acuan kualitas dan beban pemrosesan
+QualityUltra,,最高品質,Ultra,最高品质,最高品質,최고 품질,Máxima,قصوى,Ultra
+QualityUltraDescription,,最大の応力格子と通常破壊ステップ上限を使用します,Uses the largest stress grid and normal-fracture step limit,使用最大的应力网格和常规断裂步数上限,使用最大的應力網格與常規破裂步數上限,가장 큰 응력 격자와 일반 파괴 단계 상한을 사용합니다,Usa la mayor malla de tensión y el límite máximo de pasos de fractura normal,يستخدم أكبر شبكة إجهاد وأعلى حد لخطوات الكسر العادي,Menggunakan kisi tegangan terbesar dan batas langkah fraktur normal tertinggi
+TagKintsugi,,金継ぎ,Kintsugi,金缮,金繕,킨츠기,Kintsugi,كينتسوغي,Kintsugi
+TagCrackle,,貫入,Crackle,开片,開片,빙렬,Craquelado,التشققات الزخرفية,Retak Glasir
+TagGold,,金,Gold,金,金,금,Oro,ذهب,Emas
+UpdateAvailableMessage,,新しいバージョン {0} が公開されています。,A new version {0} is available.,新版本 {0} 已发布。,新版本 {0} 已發布。,새 버전 {0}이(가) 공개되었습니다.,La nueva versión {0} ya está disponible.,تم إصدار نسخة جديدة {0}.,Versi baru {0} telah dirilis.
