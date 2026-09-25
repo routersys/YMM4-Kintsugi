@@ -1,9 +1,8 @@
 using YukkuriMovieMaker.Generator;
 
-namespace Kintsugi
+namespace Kintsugi;
+
+[AutoGenLocalizer]
+partial class Texts
 {
-    [AutoGenLocalizer]
-    partial class Texts
-    {
-    }
 }
